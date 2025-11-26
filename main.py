@@ -6,7 +6,7 @@ import uuid
 app = Flask(__name__)
 
 # مجلد التحميلات (تأكد أن السيرفر يسمح بالكتابة هنا)
-DOWNLOAD_DIR = Path("/app/downloads")
+DOWNLOAD_DIR = Path("downloads")
 DOWNLOAD_DIR.mkdir(parents=True, exist_ok=True)
 
 # تخزين حالة التحميل
